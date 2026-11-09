@@ -45,6 +45,11 @@
   transform: translateY(-2px);
 }
 
+.container a:hover {
+  background-color: #473bf1;
+  color: white;
+}
+
 .container header img {
   height: 43px;
   padding: 10px;
@@ -84,6 +89,7 @@
   gap: 10px;
   margin-top: 5px;
   margin-left: 50px;
+
 }
 
 .destino label {
@@ -91,6 +97,7 @@
   width: 43%;
   border-radius: 17px;
   padding: 8px;
+  background-color: rgb(247, 246, 255);
 }
 
 .destino input[type="text"],
@@ -108,7 +115,7 @@
 
 .destino input[type="date"] {
   width: 150px;
-  color: #473bf1;
+  color: #473bf160;
 }
 
 .destino input[type="text"] {
@@ -123,11 +130,11 @@
 
 .destino input[type="text"]::placeholder {
   width: 200px;
-  color: #473bf1;
+  color: #473bf165;
 }
 
 .destino input[type="number"]::placeholder {
-  color: #473bf1;
+  color: #473bf154;
 }
 
 .destino input[type="submit"] {
@@ -135,6 +142,13 @@
   color: white;
   cursor: pointer;
   border-radius: 30px;
+  transition: 0.2s;
+}
+
+.destino input[type="submit"]:hover {
+  background-color: white;
+  color: #473bf1;
+  border: 1px solid white;
 }
 
 .menu-grid {
@@ -156,7 +170,7 @@
 }
 
 .menu-card:hover {
-  transform: translatey(-8px);
+  transform: translatey(-5px);
 }
 
 .conteudo {
