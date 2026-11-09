@@ -31,6 +31,8 @@
     padding-left: 40%;
 }
 
+
+
 .container ul li a {
     text-decoration: none;
     color: #473bf1;
@@ -38,6 +40,14 @@
     padding: 10px;
     border: 2px solid #473bf1;
     border-radius: 40px;
+}
+
+.container li {
+    transition: 0.5s;
+}
+
+.container li:hover {
+    transform: translateY(-2px);
 }
 
 .container header img {
@@ -51,11 +61,15 @@
     font-size: 20px;
     font-weight: bold;
     position: absolute;
-    top: 42%;
+    top: 35%;
     left: 2%;
     color: white;
     text-align: center;
 
+}
+
+#colitext {
+    color: white;
 }
 
 .coliseu img {
@@ -150,6 +164,10 @@
     transition: 0.3s;
 }
 
+.menu-card:hover {
+    transform: translatey(-8px);
+}
+
 .conteudo {
     display: flex;
     flex-direction: column;
@@ -170,4 +188,137 @@
     margin-top: 25px;
 }
 
+* {
+    font-family: Arial, sans-serif;
+    text-decoration: none;
+
+
+}
+
+.conteudo {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+footer {
+    background-color: #473bf1;
+    padding: 1.5px;
+    text-align: center;
+    margin: 0 auto;
+    bottom: 0;
+    width: 100%;
+}
+
+footer p {
+    font-size: 16px;
+    color: #ffffff;
+    padding-top: 4px;
+}
+
+h1 {
+    font-size: 40px;
+    color: #000000;
+    margin: 0;
+    vertical-align: middle;
+    padding-top: 4px;
+    text-decoration: italic;
+    text-align: center;
+}
+h1 img {
+    height: 50px;
+    width: 50px;
+    vertical-align: middle;
+    margin-right: 10px;
+}
+
+p {
+    font-size: 16px;
+    color: #000000;
+    margin: 0;
+    display: flex;
+    vertical-align: middle;
+    padding-top: 4px;
+    text-decoration: italic;
+}
+
+#voltar {
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+}
+
+* {
+    font-family: Arial, sans-serif;
+    text-decoration: none;
+
+
+}
+
+.conteudo {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+footer {
+    background-color: #473bf1;
+    padding: 1.5px;
+    text-align: center;
+    margin: 0 auto;
+    bottom: 0;
+    width: 100%;
+}
+
+footer p {
+    font-size: 16px;
+    color: #ffffff;
+    padding-top: 4px;
+}
+
+h1 {
+    font-size: 40px;
+    color: #000000;
+    margin: 0;
+    vertical-align: middle;
+    padding-top: 4px;
+    text-decoration: italic;
+
+}
+h1 img {
+    height: 50px;
+    width: 50px;
+    vertical-align: middle;
+    margin-right: 10px;
+}
+
+p {
+    font-size: 16px;
+    color: #000000;
+    margin: 0;
+    display: flex;
+    vertical-align: middle;
+    padding-top: 4px;
+    text-decoration: italic;
+}
+
+.formulario {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+}
+
+.contato {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+}
+
+#voltar {
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+}
 
