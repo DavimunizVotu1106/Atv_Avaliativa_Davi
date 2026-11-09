@@ -70,3 +70,98 @@
     border-radius: 10px;
 
 }
+
+.destino {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-top: 5px;
+    margin-left: 50px;   
+}
+
+.destino label {
+    border: 0.5px solid #312a88;
+    width: 43%;
+    border-radius: 17px;
+    padding: 8px;
+
+}
+
+.destino input[type="text"],
+.destino input[type="date"],
+.destino input[type="number"],
+.destino input[type="submit"] {
+    padding: 10px;
+    border: 1px solid #473bf1;
+    border-radius: 5px;
+    font-size: 16px;
+    text-align: center;
+    gap: 10px;
+    background-color: rgba(255, 255, 255, 0.726);
+}
+
+.destino input[type="date"] {
+    width: 150px;
+    color: #473bf1;
+}
+
+.destino input[type="text"] {
+    width: 200px;
+    color: #473bf1;
+}
+
+.destino input[type="number"] {
+    width: 100px;
+    color: #473bf1;
+}
+
+.destino input[type="text"]::placeholder {
+    width: 200px;
+    color: #473bf1;
+}
+
+.destino input[type="number"]::placeholder {
+    color: #473bf1;
+}
+
+.destino input[type="submit"] {
+    background-color: #473bf1;
+    color: white;
+    cursor: pointer;
+    border-radius: 30px;
+    
+}
+
+.menu-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.menu-card {
+   width: 100%;
+    display: block;
+    background-color: rgb(235, 237, 255);
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.08);
+    transition: 0.3s;
+}
+
+.menu-card-image img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    display: block;
+}
+
+.rodape {
+    background-color: #473bf1;
+    color: white;
+    padding: 5px;
+    margin-top: 25px;
+}
+
+
