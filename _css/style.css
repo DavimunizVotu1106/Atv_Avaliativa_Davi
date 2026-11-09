@@ -111,7 +111,7 @@
 }
 
 .destino input[type="number"] {
-    width: 100px;
+    width: 102px;
     color: #473bf1;
 }
 
@@ -148,6 +148,12 @@
     overflow: hidden;
     box-shadow: 0 8px 20px rgba(0, 0, 0, 0.08);
     transition: 0.3s;
+}
+
+.conteudo {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
 }
 
 .menu-card-image img {
