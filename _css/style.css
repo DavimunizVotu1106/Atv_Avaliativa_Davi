@@ -50,6 +50,7 @@ main {
   top: 0;
   width: 100%;
 }
+
 /*Título do Cabeçalho principal do index*/
 .container header h1 {
   font-size: 40px;
@@ -60,6 +61,7 @@ main {
   padding-top: 4px;
   text-decoration: italic;
 }
+
 /*Menu de navegação*/
 .container ul {
   display: flex;
@@ -67,6 +69,7 @@ main {
   list-style: none;
   padding-left: 40%;
 }
+
 /*Estilização geral do menu de navegação do site*/
 .container ul li a {
   text-decoration: none;
@@ -76,25 +79,30 @@ main {
   border: 2px solid #473bf1;
   border-radius: 40px;
 }
+
 /*Tempo de transição do botão*/
 .container li {
   transition: 0.5s;
 }
+
 /*posição que o botão vai se mover*/
 .container li:hover {
   transform: translateY(-2px);
 }
+
 /*Cor do botão após passar o mouse*/
 .container a:hover {
   background-color: #473bf1;
   color: white;
 }
+
 /*Estilzação do h1 "Pacote de Viagens*/
 #pacote {
   text-align: left;
   padding: 20px;
   color:#786ffc;
 }
+
 /*Ícone principal do site*/
 .container header img {
   height: 43px;
@@ -102,11 +110,13 @@ main {
   width: 50px;
   vertical-align: middle;
 }
+
 /*Div base da imagem destaque do site*/
 .coliseu {
   position: relative;
 
 }
+
 /*Texto destaque acima da imagem*/
 .coliseu-texto {
   font-size: 20px;
@@ -117,10 +127,12 @@ main {
   color: white;
   text-align: center;
 }
+
 /*Mudando a cor do texto*/
 #colitext {
   color: white;
 }
+
 /*Estilização da imagem destaque do site*/
 .coliseu img {
   width: 100%;
@@ -132,6 +144,7 @@ main {
   background-attachment: fixed;
   border-radius: 10px;
 }
+
 /*Div para o form de escolher data e viagem destino*/
 .destino {
   display: flex;
@@ -141,6 +154,7 @@ main {
   margin-left: 50px;
 
 }
+
 /*Estilização do form */
 .destino label {
   border: 0px solid #312a88;
@@ -149,6 +163,7 @@ main {
   padding: 8px;
   background-color: rgb(247, 246, 255);
 }
+
 /*Estilização geral dos inputs*/
 .destino input[type="text"],
 .destino input[type="date"],
@@ -162,30 +177,36 @@ main {
   gap: 10px;
   background-color: rgba(255, 255, 255, 0.726);
 }
+
 /*Estilização específica do input*/
 .destino input[type="date"] {
   width: 150px;
   color: #473bf160;
 }
+
 /*Estilização específica do input*/
 .destino input[type="text"] {
   width: 200px;
   color: #473bf1;
 }
+
 /*Estilização específica do input*/
 .destino input[type="number"] {
   width: 102px;
   color: #473bf1;
 }
+
 /*Estilização específica do input*/
 .destino input[type="text"]::placeholder {
   width: 200px;
   color: #473bf165;
 }
+
 /*Estilização específica do input*/
 .destino input[type="number"]::placeholder {
   color: #473bf154;
 }
+
 /*Estilização específica do input*/
 .destino input[type="submit"] {
   background-color: #473bf1;
@@ -194,12 +215,14 @@ main {
   border-radius: 30px;
   transition: 0.2s;
 }
+
 /*Animação do botão "Buscar"*/
 .destino input[type="submit"]:hover {
   background-color: white;
   color: #473bf1;
   border: 1px solid white;
 }
+
 /*Grade de cards*/
 .menu-grid {
   display: grid;
@@ -208,6 +231,7 @@ main {
   max-width: 98%;
   margin: 0 auto;
 }
+
 /*Estilização do card pacote de viagens*/
 .menu-card {
   width: 100%;
@@ -218,18 +242,21 @@ main {
   box-shadow: 0 8px 20px rgba(0, 0, 0, 0.08);
   transition: 0.3s;
 }
+
 /*parágrafo do card*/
 .menu-card p {
   display: flex;
   align-items: center;
   gap: 5px;
 }
+
 /*Estilização dos ícones ao lado do texto*/
 .menu-card p img {
   height: 24px;
   width: 24px;
 
 }
+
 /*Estilização das imagens dos cards*/
 .menu-card-image img {
   width: 100%;
@@ -237,23 +264,27 @@ main {
   object-fit: cover;
   display: block;
 }
+
 /*Estilização dos preços*/
 .menu-card span {
   color: rgb(19, 0, 114);
   font-weight: bold;
   font-size: 20px;
 }
+
 /*Estilização do título do card*/
 .menu-card-content h3 {
   color: rgb(13, 0, 77);
   font-size: 22px;
 }
+
 /*Estilização do parágrafo do card*/
 .menu-card-content p {
   color: rgb(27, 27, 49);
   font-weight: bold;
 
 }
+
 /*Estilização do botão "Ver detalhes"*/
 .menu-card-botao {
   margin-left: 234px;
@@ -267,14 +298,17 @@ main {
   transition: 0.4s;
 
 }
+
 /*Animação do botão "Ver detalhes"*/
 .menu-card-botao:hover {
   background-color: white;
 }
+
 /*Estilização do texto*/
 .menu-card-botao a:hover {
   color: #473bf1;
 }
+
 /*Estilização do texto antes do hover*/
 .menu-card-botao a {
   color: white;
@@ -283,10 +317,12 @@ main {
   
   
 }
+
 /*posição que o card vai se mover após passar o mouse*/
 .menu-card:hover {
   transform: translatey(-3px);
 }
+
 /*Estilização do footer da página*/
 .rodape {
   background-color: #473bf1;
@@ -295,6 +331,7 @@ main {
   margin-top: 25px;
   align-items:center;
 }
+
 /*Estilização da imagem do footer*/
 .rodape img {
   height: 26px;
@@ -314,6 +351,7 @@ main {
   padding: 20px;
   
 }
+
 /*Estilização da imagem do Título na página "sobre.html"*/
 h1 img {
   height: 50px;
@@ -321,6 +359,7 @@ h1 img {
   vertical-align: middle;
   margin-right: 10px;
 }
+
 /*Estilização do Google Maps*/
 iframe {
   width: 300px;
@@ -337,18 +376,22 @@ iframe {
 .contatoempresa {
   padding: 20px;
 }
+
 /*Formulário que deve ser preenchido pelo usuário*/
 .formresponda {
   padding: 20px;
 }
+
 /*Estilização dos campos*/
 .formresponda input {
   width: 189px;
 }
+
 /*Estilização do campo "Assunto"*/
 .formresponda #assunto {
   width: 175px;
 }
+
 /*Estilização do footer*/
 footer {
   background-color: #473bf1;
@@ -358,6 +401,7 @@ footer {
   bottom: 0;
   width: 100%;
 }
+
 /*Estilização do texto do footer*/
 footer p {
   font-size: 16px;
@@ -365,6 +409,7 @@ footer p {
   padding-top: 4px;
   vertical-align: middle;
 }
+
 /*Estilização da imagem do footer*/
 footer img {
   width: 30px;
@@ -373,6 +418,7 @@ footer img {
   padding: 6px;
   padding-top: 4px;
 }
+
 /*Estilização do Título de outras páginas*/
 h1 {
   font-size: 40px;
@@ -383,6 +429,7 @@ h1 {
   text-decoration: italic;
   text-align: center;
 }
+
 /*Estilização de parágrafos*/
 p {
   font-size: 16px;
@@ -392,6 +439,7 @@ p {
   padding-top: 4px;
   text-decoration: italic;
 }
+
 /*Estilização do botão "Voltar"*/
 #voltar {
   text-decoration: none;
