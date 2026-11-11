@@ -5,10 +5,17 @@
 
 html, body {
   background-color: rgb(247, 253, 255);
-  height: 100%;
+  min-height: 100vh;
   margin: 0;
   max-width: 100%;
   overflow-x: hidden;
+  flex-direction: column;
+  display: flex;
+}
+
+
+main {
+  flex: 1;
 }
 
 .container header {
@@ -246,6 +253,8 @@ html, body {
 .conteudo {
   display: flex;
   flex-direction: column;
+  flex: 1;
+  padding: 20px;
   
 }
 
@@ -261,6 +270,13 @@ html, body {
   color: white;
   padding: 5px;
   margin-top: 25px;
+  align-items:center;
+}
+
+.rodape img {
+  height: 26px;
+  align-items:center;
+  padding-bottom: 20px;
 }
 
 * {
@@ -272,6 +288,22 @@ html, body {
   display: flex;
   flex-direction: column;
   
+}
+
+.contatoempresa {
+  padding: 20px;
+}
+
+.formresponda {
+  padding: 20px;
+}
+
+.formresponda input {
+  width: 189px;
+}
+
+.formresponda #assunto {
+  width: 175px;
 }
 
 footer {
@@ -418,4 +450,10 @@ iframe {
   padding: 20px;
 }
 @media screen and (min-width: 600px) {
+}
+
+#pacote {
+  text-align: left;
+  padding: 20px;
+  color:#786ffc;
 }
