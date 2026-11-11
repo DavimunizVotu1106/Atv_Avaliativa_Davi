@@ -3,16 +3,18 @@
   text-decoration: none;
 }
 /*Deixando página responsiva para telas pequenas*/
-@media screen and (max-width: 600px) { body {
-  flex-direction: column;
-  width: 100%;
-}
+@media screen and (max-width: 600px) {
+  body {
+    flex-direction: column;
+    width: 100%;
+  }
 }
 
 /*Página index.html*/
 
 /*Corpo da página*/
-html, body {
+html,
+body {
   background-color: rgb(247, 253, 255);
   min-height: 100vh;
   margin: 0;
@@ -30,7 +32,7 @@ main {
 /*Estilização do Título "Mike Airlines"*/
 #mike {
   font-style: italic;
-  color:#786ffc;
+  color: #786ffc;
 }
 
 /*Estilização do subtítulo "seja bem vindo!"*/
@@ -100,7 +102,7 @@ main {
 #pacote {
   text-align: left;
   padding: 20px;
-  color:#786ffc;
+  color: #786ffc;
 }
 
 /*Ícone principal do site*/
@@ -114,7 +116,6 @@ main {
 /*Div base da imagem destaque do site*/
 .coliseu {
   position: relative;
-
 }
 
 /*Texto destaque acima da imagem*/
@@ -152,7 +153,6 @@ main {
   gap: 10px;
   margin-top: 5px;
   margin-left: 50px;
-
 }
 
 /*Estilização do form */
@@ -254,7 +254,6 @@ main {
 .menu-card p img {
   height: 24px;
   width: 24px;
-
 }
 
 /*Estilização das imagens dos cards*/
@@ -282,7 +281,6 @@ main {
 .menu-card-content p {
   color: rgb(27, 27, 49);
   font-weight: bold;
-
 }
 
 /*Estilização do botão "Ver detalhes"*/
@@ -291,12 +289,11 @@ main {
   padding: 10px;
   border: 0.5px solid #312a88;
   display: inline-block;
-  background-color:#312a88;
+  background-color: #312a88;
   border-radius: 14px;
   margin-bottom: 20px;
   margin-left: 89px;
   transition: 0.4s;
-
 }
 
 /*Animação do botão "Ver detalhes"*/
@@ -314,8 +311,6 @@ main {
   color: white;
   padding: 14px;
   font-weight: bold;
-  
-  
 }
 
 /*posição que o card vai se mover após passar o mouse*/
@@ -329,19 +324,17 @@ main {
   color: white;
   padding: 5px;
   margin-top: 25px;
-  align-items:center;
+  align-items: center;
 }
 
 /*Estilização da imagem do footer*/
 .rodape img {
   height: 26px;
-  align-items:center;
+  align-items: center;
   padding-bottom: 20px;
 }
 
-
 /*Página sobre.html*/
-
 
 /*Div principal da página*/
 .conteudo {
@@ -349,7 +342,6 @@ main {
   flex-direction: column;
   flex: 1;
   padding: 20px;
-  
 }
 
 /*Estilização da imagem do Título na página "sobre.html"*/
@@ -368,9 +360,7 @@ iframe {
   border-radius: 60px;
 }
 
-
 /*Página contato.html*/
-
 
 /*Informações de contato da empresa*/
 .contatoempresa {
