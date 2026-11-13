@@ -61,6 +61,11 @@ main {
   font-weight: bold;
 }
 
+
+
+
+
+
 #bemvindos {
   background-image: url("/_images/wallpaperbemvindo.png");
   background-size: cover;
@@ -71,7 +76,6 @@ main {
 .bem-vindo {
   text-align: center;
   margin-top: 200px;
-  border: 2px solid #786ffc;
   display: inline-block;
   transform: translate(900px, 150px);
   font-size: 30px;
@@ -79,10 +83,21 @@ main {
   border-radius: 30px;
   padding: 15px;
   font-weight: bold;
+  transition: 0.4s;
+}
+
+.bem-vindo:hover {
+  background-color: white;
+  border: none;
+  color:#786ffc;
 }
 
 .bem-vindo a {
   color: white;
+}
+
+.bem-vindo a:hover {
+  color:#786ffc;
 }
 
 /*Cabeçalho principal do index*/
@@ -609,4 +624,47 @@ p {
   height: 270px;
   object-fit: cover;
   object-position: center 38%;
+}
+
+.galeria-grid {
+  padding: 20px;
+  display: flex;
+  gap: 20px;
+  margin-bottom: 219px;
+}
+
+#galeria-titulo {
+  color:#0c00bb;
+}
+
+.galeria-card {
+   width: 30%;
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(235, 237, 255);
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.08);
+  transition: 0.3s;
+  padding: 20px;
+}
+
+.galeria-card:hover {
+  transform: translateY(-8px);
+
+}
+
+.galeria-card img {
+  border-radius: 12px;
+}
+
+.galeria-card h1 {
+  color:#786ffc;
+  margin-bottom: 20px;
+}
+
+.galeria-card p {
+  font-weight: bold;
+  text-align: justify;
+  line-height: 1.5;
 }
