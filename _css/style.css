@@ -43,9 +43,51 @@ main {
   font-weight: bold;
 }
 
+.boasvindas h1 {
+  padding: 50px;
+  color: #12089c;
+  font-size: 45px;
+}
+
+.textobemvindo {
+  text-align: center;
+  transform: translateY(270px);
+  
+}
+
+.textobemvindo p {
+  font-size: 36px;
+  color: #786ffc;
+  font-weight: bold;
+}
+
+#bemvindos {
+  background-image: url("/_images/wallpaperbemvindo.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  min-height: 100vh;
+}
+
+.bem-vindo {
+  text-align: center;
+  margin-top: 200px;
+  border: 2px solid #786ffc;
+  display: inline-block;
+  transform: translate(900px, 150px);
+  font-size: 30px;
+  background-color:#786ffc;
+  border-radius: 30px;
+  padding: 15px;
+  font-weight: bold;
+}
+
+.bem-vindo a {
+  color: white;
+}
+
 /*Cabeçalho principal do index*/
 .container header {
-  background-color: #ffffff;
+  background-color: rgb(247, 253, 255);
   padding: 1.5px;
   text-align: left;
   margin: 0 auto;
@@ -413,22 +455,94 @@ iframe {
 
 /*Informações de contato da empresa*/
 .contatoempresa {
-  padding: 20px;
+  background-color: rgb(235, 237, 255);
+    padding: 20px;
+    margin-bottom: 20px;
+    line-height: 1.5;
+    font-weight: bold;
+    width: 500px;
+    height: 240px;
+    border-radius: 15px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.08);
+    border-bottom: 3px solid #473bf1;
+}
+
+.contatoempresa h2 {
+  color:#786ffc;
+}
+
+#contate {
+  transform: translateY(190px);
+  color:#786ffc;
+}
+.menu-contato {
+  display: flex;
+  padding: 300px;
+  margin-right: 150px;
 }
 
 /*Formulário que deve ser preenchido pelo usuário*/
 .formresponda {
-  padding: 20px;
+   background-color: rgb(235, 237, 255);
+    padding: 20px;
+    margin-bottom: 20px;
+    line-height: 1.5;
+    font-weight: bold;
+    width: 500px;
+    height: 380px;
+    border-radius: 15px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.08);
+    border-bottom: 3px solid #473bf1;
+}
+
+.menu-contato hr {
+  border: 2px solid #786ffc;
+  border-radius: 20px;
+}
+
+.formresponda h2 {
+  color:#786ffc;
 }
 
 /*Estilização dos campos*/
 .formresponda input {
-  width: 189px;
+  width: 100%;
+  border: 2px solid #786ffc;
+  border-radius: 7px;
+  padding: 5px;
 }
 
 /*Estilização do campo "Assunto"*/
 .formresponda #assunto {
-  width: 175px;
+  width: 100%;
+  border: 2px solid #786ffc;
+  border-radius: 7px;
+  padding: 5px;
+}
+
+.formresponda textarea {
+  width: 100%;
+  height: 50px;
+  resize: none;
+  border: 2px solid #786ffc;
+  border-radius: 7px;
+  padding: 5px;
+}
+
+#enviar {
+  color: white;
+  font-weight: bold;
+  padding: 9px;
+  width: 90px;
+  font-size: 17px;
+  background-color:#12089c;
+  border: none;
+  transition: 0.3s;
+}
+
+#enviar:hover {
+  background-color: white;
+  color:#12089c;
 }
 
 /*Estilização do footer*/
